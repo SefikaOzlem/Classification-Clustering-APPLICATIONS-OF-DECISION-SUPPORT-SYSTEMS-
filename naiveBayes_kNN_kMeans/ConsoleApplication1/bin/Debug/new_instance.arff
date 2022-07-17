@@ -1,0 +1,22 @@
+@RELATION new_instance
+@ATTRIBUTE Ilan-Durumu {'Satilik','Kiralik'}
+@ATTRIBUTE Oda-Salon-Sayisi {'1+0','1+4','1+1','2+0','2+1','3+1','4+1','5+1','6+1','7+1','8+1','8+2','7+2','6+2','5+2','4+2','3+2','2+2'}
+@ATTRIBUTE Brut-Net-M2 REAL
+@ATTRIBUTE Bulundugu-Kat REAL
+@ATTRIBUTE Bina-Yasi REAL
+@ATTRIBUTE Isinma-Tipi {'Kombi','Gunes-Enerjisi','Dogalgaz-Sobasi','Isi-Pompasi','Merkezi','Klima','Kat-Kaloriferi','Isitma-Yok','Soba','Yerden-Isitma','Belirtilmemis','Jeotermal-Isitma'}
+@ATTRIBUTE Kati-Sayisi REAL
+@ATTRIBUTE Krediye-Uygunluk {'Uygun','Uygun-degil','Bilinmiyor'}
+@ATTRIBUTE Esya-Durumu {'Esyali','Esyali-Degil'}
+@ATTRIBUTE Banyo-Sayisi REAL
+@ATTRIBUTE Yapi-Tipi {'Betonarme','Tas-Bina','Kagir','Yigma','Ahsap','Celik'}
+@ATTRIBUTE Yapinin-Durumu {'Sifir','Ikinci-El','Yapim-Asamasinda'}
+@ATTRIBUTE Kullanim-Durumu {'Bos','Kiraci-Oturuyor','Ev-Sahibi-Oturuyor','Belirtilmemis'}
+@ATTRIBUTE Aidat REAL
+@ATTRIBUTE Takas {'Hayir','Evet'}
+@ATTRIBUTE Cephe {'Kuzey-Guney-Dogu-Bati','Kuzey-Dogu-Bati','Kuzey-Guney-Dogu','Kuzey-Guney-Bati','Kuzey-Guney','Kuzey-Dogu','Kuzey-Bati','Guney-Dogu-Bati','Guney-Dogu','Guney-Bati','Dogu-Bati','Guney','Kuzey','Bati','Dogu'}
+@ATTRIBUTE Kira-Getirisi {'500-1000','1000-2000','2000-3000','3000-4000','4000-5000','5000-6000','6000-7000','7000-8000','8000-9000','9000-10000','10000-11000','11000-12000','12000-13000','13000-14000','14000-15000','15000-16000','16000-17000','17000-18000','18000-19000','19000-20000','20000-21000'}
+@ATTRIBUTE Yakit-Tipi {'Dogalgaz','Elektrik','Komur-Odun','Akaryakit'}
+@ATTRIBUTE Fiyat {'250000-300000','300000-350000','350000-400000','400000-450000','450000-500000','500000-550000','550000-600000','600000-650000','650000-700000','700000-750000','750000-800000','800000-850000','850000-900000','900000-950000','950000-1000000','1000000-1050000','1050000-1100000','1100000-1150000','1150000-1200000','1200000-1250000','1250000-1300000','1300000-1350000','1350000-1400000','1400000-1450000','1450000-1500000','1500000-1550000','1550000-1600000','1600000-1650000','1650000-1700000','1700000-1750000','1750000-1800000','1800000-1850000','1850000-1900000','1900000-1950000','1950000-2000000','2000000-2050000','500-1000','1000-2000','2000-3000','3000-4000','4000-5000','5000-6000','6000-7000','7000-8000','8000-9000','9000-10000','10000-11000','11000-12000','12000-13000','13000-14000','14000-15000','15000-16000','16000-17000','17000-18000','18000-19000','19000-20000','20000-21000'}
+@DATA
+Kiralik,1+1,120,2,3,Gunes-Enerjisi,3,Uygun-degil,Esyali-Degil,1,Tas-Bina,Sifir,Kiraci-Oturuyor,20,Hayir,Kuzey,16000-17000,Dogalgaz,?
